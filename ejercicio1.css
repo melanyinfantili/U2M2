@@ -1,0 +1,53 @@
+.Contenedor{
+    background-color: white;
+    width: 450px;
+    display: flex;
+    align-content: flex-end;
+    margin:0 auto;
+    height: 450px;
+    border: 2px solid black;
+}
+
+.item1{
+    position: relative;
+    left: 300px;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2{
+    position: relative;
+    left: 150px;
+    top: 150px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 {
+    position: relative;
+    top: 300px;
+    left: 0.5px;
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
